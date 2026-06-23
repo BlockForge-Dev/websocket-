@@ -1,0 +1,27 @@
+# Build output
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test and profiling output
+/coverage/
+coverage.out
+*.prof
+
+# Local Go caches used by sandboxed development
+/.gocache/
+/.gomodcache/

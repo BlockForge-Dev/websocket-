@@ -1,0 +1,20 @@
+# Go-server specific files to ignore
+go-server/bin/
+go-server/dist/
+go-server/*.exe
+go-server/*.test
+go-server/*.out
+go-server/.env
+go-server/.env.*
+go-server/*.local
+go-server/coverage/
+go-server/coverage.out
+go-server/*.prof
+go-server/.gocache/
+go-server/.gomodcache/
+
+# OS and Editor files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
